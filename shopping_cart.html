@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+
+    <form action="#" method="POST">
+        <section>
+            <h2>訂購商品明細:</h2>
+            <table border="1" >
+                <thead>
+                    <tr>
+                        <th>商品名稱</th>
+                        <th>數量(個)</th>
+                        <th>單價(台幣)</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <td>附蓋萬用罐,透明玻璃</td>
+                        <td>581</td>
+                        <td>59</td>
+                </tbody>
+                <tfoot>
+                    <td>總價</td>
+                    <td colspan="2" class="total">34279</td>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>付款方式:</h2>
+            <input type="radio" name="payment" value="store">超商取貨
+            <input type="radio" name="payment" value="credit_card" checked>線上刷卡
+        </section>
+        <section>
+            <h2>買家備註:</h2>
+            <textarea name="comment" cols="40" rows="5" placeholder="親，有什麼需要協助的嗎?"></textarea>
+        </section>
+        
+        
+    </form>
+    <a href="confirm.html"><button>確定購買</button></a>
+</body>
+
+</html>
