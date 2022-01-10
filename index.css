@@ -1,18 +1,79 @@
+/* @font-face {
+    font-family: 'bananaslipplus';
+    src: url('./fonts/bananaslipplus/bananaslipplus.otf') format('opentype');
+} */
+
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 100;
+}
+
+header {
+    background-color: white;
+}
+
 .product-name {
-    color: red;
-    font-family: 'Noto Serif TC', serif;
-    font-size:xx-large;
+    color: #546a7b;
+    font-size: 100px;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
 }
 
-.product-pic figure {
-    display: flex;
-    justify-content: center;
+.product-name small {
+    font-size: 0.6em;
+    color: white;
+    text-shadow: 0 0 10px #546a7b;
 }
 
-footer {
+.product-pic {
+    margin: 3em;
+}
+
+.left {
+    background-color: #393D3F;
+}
+
+.right {
+    background-color: #e9cfbd;
+    position: relative;
+}
+
+.product-price {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 70px;
+    height: 400px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.product-price:before {
+    content: "$";
+}
+
+.checkout {
+    position: absolute;
+    bottom: 10px;
+}
+
+input[type="number"] {
+    width: 200px;
     display: block;
-    color: rgb(0, 119, 255);
-    height: 1000px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+footer div {
+    background-color: #62929e;
+    height: 80px;
     margin-top: 1.5em;
 
+}
+
+footer small {
+    display: block;
+    color: #fdfdff;
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
 }
