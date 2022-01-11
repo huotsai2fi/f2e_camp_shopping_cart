@@ -4,19 +4,22 @@
 } */
 
 
-body {
+#container {
     font-family: 'Noto Sans HK', sans-serif;
     font-weight: 100;
+    height: auto !important;
+    min-height: 100%;
 }
 
-header {
+#header {
+    padding-top: 2%;
     background-color: white;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 .product-name {
     color: #546a7b;
-    font-size: 100px;
-    font-family: 'Dela Gothic One', cursive;
+    font-size: 600%;
     text-align: center;
 }
 
@@ -26,25 +29,32 @@ header {
     text-shadow: 0 0 10px #546a7b;
 }
 
-.product-pic {
-    margin: 3em;
+#content {
+    padding: 1em 0 2em 0;
 }
 
+
 .left {
-    background-color: #393D3F;
+    /* background-color: #393D3F; */
+    text-align: center;
+}
+
+.product-pic {
+    height: 400px;
+    padding: 5% 0 5% 0;
 }
 
 .right {
     background-color: #e9cfbd;
-    position: relative;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(150, 150, 150);
 }
 
 .product-price {
     font-family: 'Dela Gothic One', cursive;
-    font-size: 70px;
-    height: 400px;
-    position: absolute;
-    bottom: 50px;
+    font-size: 380%;
+    padding: 0.5em 0 0.5em 5px;
+    margin: 0 0 0.5em 0;
 }
 
 .product-price:before {
@@ -52,28 +62,25 @@ header {
 }
 
 .checkout {
-    position: absolute;
-    bottom: 10px;
+    padding: 1em 1.5em 1em 5px;
+    font-size: 110%;
 }
 
 input[type="number"] {
-    width: 200px;
+    width: 100%;
     display: block;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin: 0.3em 0 1.8em 0;
 }
 
-footer div {
+#footer {
     background-color: #62929e;
-    height: 80px;
-    margin-top: 1.5em;
-
+    width: 100%;
 }
 
-footer small {
+#footer small {
     display: block;
     color: #fdfdff;
     font-style: italic;
-    padding: 1em;
+    padding: 1em 0 5em 0;
     text-align: center;
 }
