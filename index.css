@@ -3,12 +3,16 @@
     src: url('./fonts/bananaslipplus/bananaslipplus.otf') format('opentype');
 } */
 
+body {
+    height: 100vh;
+}
 
 #container {
     font-family: 'Noto Sans HK', sans-serif;
     font-weight: 100;
-    height: auto !important;
     min-height: 100%;
+    position: relative;
+    padding-bottom: 5em;
 }
 
 #header {
@@ -75,12 +79,14 @@ input[type="number"] {
 #footer {
     background-color: #62929e;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 #footer small {
     display: block;
     color: #fdfdff;
     font-style: italic;
-    padding: 1em 0 5em 0;
+    padding: 1em 0 3em 0;
     text-align: center;
 }
