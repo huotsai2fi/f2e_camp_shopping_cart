@@ -1,0 +1,81 @@
+
+body {
+    height: 100vh;
+}
+
+
+#header{
+    /* height: 50px; */
+    width: 100%;
+    background-color: #e7dfc6;
+}
+
+.page_title{
+    padding: 0.5em 0 0.5em 0;
+    margin: auto;
+}
+
+#content{
+    padding: 5em 0 5em 0;
+}
+
+.product-list{
+    padding-left: 10%;
+    padding-bottom:5%;
+}
+
+table{
+    width: 100%;
+}
+
+.checkout{
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.checkout button{
+    min-width: 50px;
+}
+
+.registration{
+    padding-left: 10%;
+    padding-bottom: 5%;
+    border-right: 1px solid #b2675e;
+}
+
+.login{
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.registration div, .login div{
+    padding: 0.5em;
+}
+
+label {
+    padding-right: 1em;
+}
+
+input[type="radio"]{
+    margin: 0.5em;
+}
+
+
+.redirect{
+    padding: 1em 0 0 0;
+}
+
+@media (max-width:767px) {
+    .registration{
+        border: none;
+    }
+
+    .login{
+        padding-left: 10%;
+    }
+}
