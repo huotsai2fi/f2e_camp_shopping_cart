@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    /* height: 50px; */
+    width: 100%;
+    height: 12%;
+    background-color: #e7dfc6;
+}
+
+.page_title {
+    padding: 0.5em 0 0.5em 0;
+    margin: auto;
+}
+
+.content {
+    padding: 5em 0 5em 0;
+}
+
+
+/* --------------shopping-cart-page-------------- */
+
+.product-list {
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+table {
+    width: 100%;
+}
+
+.checkout {
+    display: flex;
+    align-items: center;
+}
+
+.product-list.total {
+    font-weight: bold;
+}
+
+.checkout button {
+    min-width: 50px;
+}
+
+.registration {
+    padding-left: 10%;
+    padding-bottom: 5%;
+    border-right: 1px solid #b2675e;
+}
+
+.login {
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.registration div, .login div {
+    padding: 0.5em;
+}
+
+label {
+    padding-right: 1em;
+}
+
+input[type="radio"] {
+    margin: 0.5em;
+}
+
+
+
+@media (max-width:767px) {
+    .registration {
+        border: none;
+    }
+
+    .login {
+        padding-left: 10%;
+    }
+
+}
+
+/* --------------billing-page-------------- */
+
+.payment {
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.ps {
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.confirm {
+    padding-right: 10%;
+}
+
+.confirm button {
+    float: right;
+}
+
+@media (max-width:767px) {
+
+    .ps {
+        padding-left: 10%;
+    }
+}
+
+/* --------------confirm-page-------------- */
+
+.logo {
+    color: #546a7b;
+    background-color: transparent;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.main-message {
+    padding-bottom: 0.8em;
+}
