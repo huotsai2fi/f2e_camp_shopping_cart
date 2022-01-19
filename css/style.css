@@ -21,27 +21,7 @@ body {
 
 /* --------------shopping-cart-page-------------- */
 
-.product-list {
-    padding-left: 10%;
-    padding-bottom: 5%;
-}
 
-table {
-    width: 100%;
-}
-
-.checkout {
-    display: flex;
-    align-items: center;
-}
-
-.product-list.total {
-    font-weight: bold;
-}
-
-.checkout button {
-    min-width: 50px;
-}
 
 .registration {
     padding-left: 10%;
@@ -82,31 +62,55 @@ input[type="radio"] {
 
 /* --------------billing-page-------------- */
 
-.payment {
+.product-list {
     padding-left: 10%;
-    padding-bottom: 5%;
-}
-
-.ps {
     padding-right: 10%;
     padding-bottom: 5%;
 }
 
+.product-list.div{
+    padding: 5%;
+}
+
+table {
+    width: 100%;
+}
+
+
+.product-list.total {
+    font-weight: bold;
+}
+
+.billing-info-1 {
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+.billing-info-2 {
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
 textarea {
     width: 100%;
+    height: 10em;
+}
+
+.billing-info-1 div, .billing-info-2 div {
+    padding: 0.5em;
 }
 
 .confirm {
     padding-right: 10%;
 }
 
-.confirm button {
+.confirm > div > input {
     float: right;
 }
 
 @media (max-width:767px) {
 
-    .ps {
+    .billing-info-2 {
         padding-left: 10%;
     }
 }
