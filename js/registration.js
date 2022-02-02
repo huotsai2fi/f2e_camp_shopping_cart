@@ -24,7 +24,7 @@ $("#register-form").validate({
     let verifyPasswd = $("#verify-password").val();
 
     $.post(
-      "http://140.127.196.92:1234/login",
+      "https://www.townway.com.tw/auth",
       {
         account: email,
         password: newPasswd,
