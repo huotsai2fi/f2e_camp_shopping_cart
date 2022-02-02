@@ -19,9 +19,16 @@ body {
 }
 
 
-/* --------------shopping-cart-page-------------- */
+/* --------------registration-page-------------- */
 
+.error {
+    color: red;
+    margin-left: 5px;
+}
 
+label.error {
+    display: inline;
+}
 
 .registration {
     padding-left: 10%;
@@ -60,7 +67,7 @@ input[type="radio"] {
 
 }
 
-/* --------------billing-page-------------- */
+/* --------------shopping-cart-page-------------- */
 
 .product-list {
     padding-left: 10%;
@@ -68,7 +75,7 @@ input[type="radio"] {
     padding-bottom: 5%;
 }
 
-.product-list.div{
+.product-list.div {
     padding: 5%;
 }
 
@@ -104,7 +111,7 @@ textarea {
     padding-right: 10%;
 }
 
-.confirm > div > input {
+.confirm>div>input {
     float: right;
 }
 

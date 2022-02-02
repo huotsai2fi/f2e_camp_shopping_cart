@@ -31,22 +31,24 @@
 
                         <h2>會員註冊</h2>
                         <div>
-                            <label for="username">姓名:</label>
-                            <input type="text" name="username" id="username" required>
+                            <label for="username">全名:</label>
+                            <input type="text" name="username" id="username">
                         </div>
                         <div>
                             <label for="email">電子信箱:</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="new-account">設定使用者名稱:</label>
+                            <input type="text" name="new-account" id="new-account">
                         </div>
                         <div>
                             <label for="new-password">設定密碼:</label>
-                            <input type="password" name="new-password" id="new-password" required>
-                            <small style="opacity: 70%;">密碼長度至少為8</small>
+                            <input type="password" name="new-password" id="new-password" placeholder="請輸入8個字元">
                         </div>
                         <div>
                             <label for="verify-password">再次輸入密碼:</label>
-                            <input type="password" name="verify-password" id="verify-password" required>
-                            <small style="opacity: 70%;"></small>
+                            <input type="password" name="verify-password" id="verify-password">
                         </div>
 
                         <div>
@@ -61,8 +63,8 @@
 
                     <h2>已經有帳號了嗎?</h2>
                     <div>
-                        <label for="account">帳號:</label>
-                        <input type="text" name="account" placeholder="電子信箱" required>
+                        <label for="account">使用者名稱:</label>
+                        <input type="text" name="account" placeholder="輸入使用者名稱" required>
                     </div>
                     <div>
                         <label for="password">密碼:</label>
