@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  $("#amount").text($.cookie("amount"));
+  $("#total")
+    .text($.cookie("amount") * 59)
+    .css("font-weight", "bold");
+
   $("#username").val($.cookie("username"));
   $("#email").val($.cookie("email"));
   $("#account").val($.cookie("account"));
